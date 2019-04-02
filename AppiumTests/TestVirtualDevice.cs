@@ -23,8 +23,8 @@ namespace AppiumTests
             cap.SetCapability("device", "Android");
             cap.SetCapability("platformName", "Android");
             cap.SetCapability("deviceName", "donatello");
-            cap.SetCapability("platformVersion", "4.4.4");
-            cap.SetCapability("udid", "169.254.76.233:5555");
+            cap.SetCapability("platformVersion", "6.0.0");
+            cap.SetCapability("udid", "169.254.190.187:5555");
             cap.SetCapability("chromedriverExecutable", "C:/cd/chromedriver.exe");
            // var options = new ChromeOptions();
             //options.AddArgument("no-sandbox");
